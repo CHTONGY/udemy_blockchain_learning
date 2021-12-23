@@ -37,8 +37,8 @@ def get_chain():
 
 
 # to see whether the blockchain is valid
-@app.route("/validate", method=['GET'])
-def validate():
+@app.route("/validate_chain", methods=['GET'])
+def validate_chain():
     is_valid = block_chain.is_chain_valid()
     response = {}
 
