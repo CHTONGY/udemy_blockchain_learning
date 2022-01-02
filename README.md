@@ -83,3 +83,10 @@ Bitcoin monetary policy
 3. current_target[0:len(Hex[2:])] = Hex[2:]: 5D97DC000000......00000 (total 46 hex digits)
 4. complement current_target to 64 hex digits: 000...5D97DC0000..00 (total 64 hex digits)
 Target is stored in every block, but it's in "Bits" (a decimal) format.
+
+
+### module 2 (coding)
+key part: decentralize blockchain (consensus protocal) and create transactions (make blockchain become cryptocurrency)
+
+
+we can regard cryptocurrency as the combination of blockchain and transactions, where blockchain play a role as infrastructure and transactions play a role as data store in blockchain.
